@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+    backend:
+        image: arthurjez/innov-prototype-backend:1.0.0-dev
+        environment:
+        - TRUC=truc
+
+    frontend:
+        image: arthurjez/innov-prototype-frontend:1.0.0-dev
+        ports:
+        - "8080:8080"
+
+  
